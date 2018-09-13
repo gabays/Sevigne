@@ -1,0 +1,63 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>Liens</title>
+         </titleStmt>
+         <editionStmt>
+            <edition></edition>
+            <respStmt>
+               <resp>Conception scientifique</resp>
+               <name><persName>Cécile Lignereux</persName> et <persName>Simon Gabay</persName></name>
+            </respStmt>
+            <respStmt>
+               <resp>Encodage TEI</resp>
+               <name><persName>Simon Gabay</persName></name>
+            </respStmt>
+         </editionStmt>
+         <publicationStmt>
+            <publisher>ELAN – Équipe littératures et arts numériques</publisher>
+            <availability status="restricted" n="cc-by">
+               <licence target="https://creativecommons.org/licenses/by/2.0/fr/"/>
+               <p>Attribution 2.0 France (CC BY 2.0 FR)</p>
+            </availability>
+         </publicationStmt>
+         <sourceDesc>
+            <p>Données rassemblées par <persName>Cécile Lignereux</persName> et <persName>Simon Gabay</persName></p>
+         </sourceDesc>
+      </fileDesc>
+   </teiHeader>
+  <text>
+      <body>
+         <head>Liens</head>
+         <list type="academic">
+            <head>Université</head>
+            <item>
+               <label>SIEFAR</label>
+               <desc>Société internationale d'étude des femmes de l'Ancien Régime</desc>
+               <ref target="http://siefar.org/">Site web</ref>
+            </item>
+            <item>
+               <label>Madame de Villedieu</label>
+               <desc>Site sur Madame de Villedieu d'Edwige Keller-Rahbé (université Lyon 2)</desc>
+               <ref target="https://madamedevilledieu.univ-lyon2.fr/">Site web</ref>
+            </item>
+         </list>
+         <list type="places">
+            <head>Patrimoine</head>
+            <item>
+               <label>Château des Rochers</label>
+               <desc>Musée du château des Rochers</desc>
+               <ref target="http://bretagne-vitre.com/le-chateau-des-rochers-sevigne/">Site web</ref>
+            </item>
+            <item>
+               <label>Château de Grignan</label>
+               <desc>Musée du château de Grignan</desc>
+               <ref target="https://www.chateaux-ladrome.fr/fr/chateau-de-grignan">Site web</ref>
+            </item>
+         </list>
+      </body>
+  </text>
+</TEI>

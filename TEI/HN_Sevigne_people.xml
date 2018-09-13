@@ -1,0 +1,62 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>Equipe</title>
+         </titleStmt>
+         <editionStmt>
+            <edition></edition>
+            <respStmt>
+               <resp>Conception scientifique</resp>
+               <name><persName>Cécile Lignereux</persName> et <persName>Simon Gabay</persName></name>
+            </respStmt>
+            <respStmt>
+               <resp>Encodage TEI</resp>
+               <name><persName>Simon Gabay</persName></name>
+            </respStmt>
+         </editionStmt>
+         <publicationStmt>
+            <publisher>ELAN – Équipe littératures et arts numériques</publisher>
+            <availability status="restricted" n="cc-by">
+               <licence target="https://creativecommons.org/licenses/by/2.0/fr/"/>
+               <p>Attribution 2.0 France (CC BY 2.0 FR)</p>
+            </availability>
+         </publicationStmt>
+         <sourceDesc>
+            <p>Données rassemblées par <persName>Cécile Lignereux</persName> et <persName>Simon Gabay</persName></p>
+         </sourceDesc>
+      </fileDesc>
+   </teiHeader>
+  <text>
+      <body>
+         <head>Équipe</head>
+         <listPerson>
+            <person facs="HN_Sevigne_Images/Images_people/People_GabaySimon.jpg">
+               <persName xml:id="gabaySimon">
+                  <forename>Simon</forename><surname>Gabay</surname>
+               </persName>
+               <occupation><affiliation><roleName>Post-doctorant</roleName> à l'<orgName>université de Neuchâtel</orgName> (Suisse)</affiliation>, il prépare sa thèse d'habilitation sur Sévigné.</occupation>
+               <note type="resp">Il est responsable de la partie numérique du site, et de l'encodage en TEI.</note>
+               <bibl>
+                  <ref target="https://www.unine.ch/ilf/home/enseignants--collaborateurs/gabay_simon.html">Page personnelle</ref>
+               </bibl>
+            </person>
+            <person facs="HN_Sevigne_Images/Images_people/People_LignereuxCecile.jpg">
+               <persName xml:id="LigneureuxCecile">
+                  <forename>Cécile</forename><surname>Lignereux</surname>
+               </persName>
+               <occupation><affiliation><roleName>Maître de conférence</roleName> à l'<orgName>université Grenoble-Alpes</orgName> (France)</affiliation>, elle est l'autrice d'une <ref target="http://www.theses.fr/2009PA040219">thèse sur Sévigné</ref>.</occupation>
+               <note type="resp">La bibliographie présente sur ce site est tirée de sa thèse.</note>
+               <bibl>
+                  <ref target="http://rare.u-grenoble3.fr/spip/spip.php?article312">Page personnelle</ref>
+               </bibl>
+            </person>
+            
+            <!-- Des membres de l'ELAN – Équipe littératures et arts numériques souhaiteraient-ils être ajoutés à la liste? -->
+            
+         </listPerson>
+      </body>
+  </text>
+</TEI>

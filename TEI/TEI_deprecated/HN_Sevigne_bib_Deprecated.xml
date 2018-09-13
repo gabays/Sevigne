@@ -1,0 +1,454 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>Bibliogrphaphie</title>
+         </titleStmt>
+         <editionStmt>
+            <edition></edition>
+            <respStmt>
+               <resp>Conception scientifique</resp>
+               <name><persName>Cécile Lignereux</persName> et <persName>Simon Gabay</persName></name>
+            </respStmt>
+            <respStmt>
+               <resp>Encodage TEI</resp>
+               <name><persName>Simon Gabay</persName></name>
+            </respStmt>
+         </editionStmt>
+         <publicationStmt>
+            <publisher>ELAN – Équipe littératures et arts numériques</publisher>
+            <availability status="restricted" n="cc-by">
+               <licence target="https://creativecommons.org/licenses/by/2.0/fr/"/>
+               <p>Attribution 2.0 France (CC BY 2.0 FR)</p>
+            </availability>
+         </publicationStmt>
+         <sourceDesc>
+            <p>Bibliographie établie par <persName>Cécile Lignereux</persName>pour sa thèse de doctorat.</p>
+         </sourceDesc>
+      </fileDesc>
+   </teiHeader>
+  <text>
+      <body>
+         <!-- CETTE PARTIE SUR LA LITTERATURE PRIMAIRE POSE PROBLEME ET DEVRAIT PAS MAL CHANGER -->
+         
+         <listBibl type="primary">
+            <head>littérature primaire</head>
+            <bibl xml:id="SubrepticeTroyes">
+               <author>
+                  <persName>Sévigné</persName>
+               </author>
+               <title>LETTRES <lb/> CHOISIES <lb/> DE MADAME LA MARQUISE <lb/> DE SEVIGNE <lb/> A MADAME <lb/> DE GRIGNAN <lb/> SA FILLE <lb/> <hi rend="italic">Qui contiennent beaucoup de par- <lb break="no"/> ticularitez de l’Histoire de Loüis <lb/> XIV</hi>.</title>
+               <pubPlace>[Troyes]</pubPlace>
+               <date when="1725">M.D.C.C.X.X.V.</date>
+               <extent><measure unit="page" n="75">75 p.</measure></extent>
+               <dim type="format" unit="folio" n="in-12">in-12</dim>
+               <note type="comm">Première édition subreptice de 31 lettres ou fragments.</note>
+               <note type="listBibl1">
+                  <bibl type="digital">
+                     Exemplaire en ligne sur gallica
+                     <!-- logo de la BNF? -->
+                     <!-- encoder le repository? -->
+                     <idno type="ark">12148/bpt6k70175k</idno>
+                     <ref>http://gallica.bnf.fr/ark:/12148/bpt6k70175k</ref>
+                  </bibl>
+                  <bibl type="catalogue">
+                     Fiche descriptive dans le catalogue de la BNF
+                     <idno type="ark">12148/cb31358204x</idno>
+                     <ref>http://catalogue.bnf.fr/ark:/12148/cb31358204x</ref>
+                  </bibl>
+               </note>
+               <note type="listBibl2">
+                  <bibl><editor>Perrin</editor> <date>1754</date>, <biblScope>vol. 1</biblScope>, <citedRange>p. XI</citedRange></bibl>
+                  <bibl><editor>Monmerqué</editor> <date>1862</date>, <biblScope>vol. 11</biblScope>, <citedRange>p. 434</citedRange></bibl>
+                  <bibl><editor>duchêne</editor> <date>1974</date>, <biblScope>vol. 1</biblScope>, <citedRange>p. 757</citedRange></bibl>
+               </note>
+            </bibl>
+         </listBibl>
+         
+         
+         <!-- CETTE PARTIE EST PLUS STABLE -->
+         
+         
+         <listBibl type="secondary">
+            <biblStruct xml:id="Ackerman_1998" type="a">
+               <analytic>
+                  <author>
+                     <persName>
+                        <surname>Ackerman</surname>
+                        <forename>Simone</forename>
+                     </persName>
+                  </author>
+                  <title level="a">Mme de Sévigné, souveraine protéiforme de la littérature épistolaire – un théâtre de la cruauté impressionniste</title> 
+               </analytic>
+               <monogr>
+                  <title level="m">Mme de Sévigné (1626-1696). Provence, spectacles, « lanternes ». Colloque international du Tricentenaire de la mort de Mme de Sévigné, Château de Grignan (29 mai-1er juin 1996).</title>
+                  <editor>
+                     <persName>
+                        <surname>Roger</surname>
+                        <forename>Duchêne</forename>
+                     </persName>
+                  </editor>
+                  <imprint>
+                     <pubPlace>Grignan</pubPlace>
+                     <publisher>Association d’Action Culturelle des Châteaux Départementaux de la Drôme</publisher>
+                     <date when="1998">1998</date>
+                  </imprint>
+                  <biblScope unit="page" from="177" to="184"/>
+               </monogr>
+               <ref type="digitised"/>
+               <note type="bibl"/>
+               <note type="comm"/>
+            </biblStruct>
+            
+            <biblStruct xml:id="Adams_1997" type="u">
+               <monogr>
+                  <author>
+                     <persName>
+                        <surname>Adams</surname>
+                        <forename>Marcie Elaine</forename>
+                     </persName>
+                  </author>
+                  <title level="u">La Représentation féminine du corps souffrant</title>
+                  <note type="degree">Mémoire de master</note>
+                  <imprint>
+                     <pubPlace>London (ON)</pubPlace>
+                     <publisher>The university of Western Ontario</publisher>
+                     <date when="1997">1997</date>
+                  </imprint>
+               </monogr>
+               <ref type="digitised" target="http://www.collectionscanada.gc.ca/obj/s4/f2/dsk2/ftp01/MQ42235.pdf"/>
+               <note type="bibl">
+                  <bibl type="review">
+                     <title level="j">Dissertation Abstracts International</title>
+                     <biblScope unit="volume">38</biblScope>
+                     <biblScope unit="issue">1</biblScope>
+                     <date when="2000-02">février 2008</date>
+                     <biblScope unit="page" n="4238">49</biblScope>
+                  </bibl>
+               </note>
+               <note type="comm"/>
+            </biblStruct>
+            
+            <biblStruct xml:id="Allentuch_1982" type="a">
+               <analytic>
+                  <author>
+                     <persName>
+                        <surname>Allentuch</surname>
+                        <forename>Harriet Maxine Ray</forename>
+                     </persName>
+                  </author>
+                  <title level="a">My daughter / myself. Emotional roots of Mme de Sévigné’s art</title>
+               </analytic>
+               <monogr>
+                  <title level="j">Modern Language Quarterly</title>
+                  <imprint>
+                     <biblScope unit="volume">43</biblScope>
+                     <date when="1982">1982</date>
+                  </imprint>
+                  <biblScope unit="page" from="121" to="137"/>
+               </monogr>
+               <ref type="digitised" target="https://watermark.silverchair.com/ddmlq_43_2_121.pdf?token=AQECAHi208BE49Ooan9kkhW_Ercy7Dm3ZL_9Cf3qfKAc485ysgAAAfswggH3BgkqhkiG9w0BBwagggHoMIIB5AIBADCCAd0GCSqGSIb3DQEHATAeBglghkgBZQMEAS4wEQQM1eGlEv108idB2HEfAgEQgIIBrvZ7gxLfJgtWqQ9ocbToKhkxWr0HIl000sjIGDca7Abzl-MSs0QQm_cDBjVH-hP-TpajivkCscn1hzbfNIBKqsPyYUTX5ZZKSMdxAb580PQK5RnGQRF8V2_LaKs8bnZq6B08UvzU91QcNN7UE6X4Rkv59ctwDfqCbzTTXX_ej1MeN92tZfAU3yytz0z0dd56Cof3HRIU1c-KBwsLffPuguK_J5RcfHZevTn-ixJ0NKB28EEvHK1-CYdjyYAWPOx5nKb_K7-oGaybqpyNzK0lxDfu-Z0Da_cvM34SqUw7mJ0t6MRb3AlCRWZqHO3Lp5N6Av9rtkTX5FCf5Z6ZnqsInHIpV2nB-_I80Gv8PlMDEYJkXktdUEnD0addl90Rat6wke91WlN88X_QOaFUtkKS8_x7tPFQkj7cGp8wlMqGty1RmuoAbdmuaCe-ioocnbdGCb2a34uE4jiABX91kEhC99bNqXwvkuQuBIdYHOIJdz0mhk4NLvF2mu9UuRQl7eFSuVvX2cIeEMybgck2HJVU_urU1Rlw59uSnQus72izJghkUEMap5AScZfLDk4-JGA"/>
+               <note type="bibl"/>
+               <note type="comm"/>
+            </biblStruct>
+            
+            <biblStruct xml:id="Allentuch_1988" type="a">
+               <analytic>
+                  <author>
+                     <persName>
+                        <surname>Allentuch</surname>
+                        <forename>Harriet Maxine Ray</forename>
+                     </persName>
+                  </author>
+                  <title level="a">Setting Feelings to Words: Language and Emotion in the Letters of Madame de Sévigné</title>
+               </analytic>
+               <monogr>
+                  <title level="j">Papers on French Seventeenth Century Literature</title>
+                  <imprint>
+                     <biblScope unit="volume">XV</biblScope>
+                     <biblScope unit="issue">28</biblScope>
+                     <date when="1988">1988</date>
+                  </imprint>
+                  <biblScope unit="page" from="239" to="244"/>
+               </monogr>
+               <ref type="digitised"/>
+               <note type="bibl"/>
+               <note type="comm"/>
+            </biblStruct>
+            
+            <biblStruct xml:id="Allentuch_1962" type="u">
+               <monogr>
+                  <author>
+                     <persName>
+                        <surname>Allentuch</surname>
+                        <forename>Harriet Maxine Ray</forename>
+                     </persName>
+                  </author>
+                  <title level="u">A descriptive analysis of the personality of Mme de Sévigné</title>
+                  <note type="degree">Thèse de doctorat</note>
+                  <imprint>
+                     <pubPlace>New York (NY)</pubPlace>
+                     <publisher>Columbia University</publisher>
+                     <date when="1962">1962</date>
+                  </imprint>
+               </monogr>
+               <ref type="digitised"/>
+               <note type="bibl">
+                  <bibl type="review">
+                     <title level="j">Dissertation Abstracts International</title>
+                     <biblScope unit="volume">34</biblScope>
+                     <biblScope unit="issue">7</biblScope>
+                     <date when="1974-01">janvier 1974</date>
+                     <biblScope unit="page" n="4238">4238</biblScope>
+                  </bibl>
+               </note>
+               <note type="comm"/>
+            </biblStruct>
+            
+            <biblStruct xml:id="Allentuch_1963" type="m">
+               <monogr>
+                  <author>
+                     <persName>
+                        <surname>Allentuch</surname>
+                        <forename>Harriet Maxine Ray</forename>
+                     </persName>
+                  </author>
+                  <title level="m">Mme de Sévigné, A Portrait in Letters</title>
+                  <imprint>
+                     <pubPlace>Baltimore (MD)</pubPlace>
+                     <publisher>The John Hopkins Press</publisher>
+                     <date when="1963">1963</date>
+                  </imprint>
+               </monogr>
+               <ref type="digitised"/>
+               <note type="bibl"/>
+               <note type="comm"/>
+            </biblStruct>
+            
+            <biblStruct xml:id="Arey_1989" type="u">
+               <monogr>
+                  <author>
+                     <persName>
+                        <surname>Arey</surname>
+                        <forename>Marie-Jo</forename>
+                     </persName>
+                  </author>
+                  <title level="u">L’Espace d’une Sévigné: Relations spatiales et autogynographiques dans la Correspondance</title>
+                  <note type="degree">Thèse de doctorat</note>
+                  <imprint>
+                     <pubPlace>Durham (NC)</pubPlace>
+                     <publisher>Duke University</publisher>
+                     <date when="1989">1989</date>
+                  </imprint>
+               </monogr>
+               <ref type="digitised"/>
+               <note type="bibl">
+                  <bibl type="review">
+                     <title level="j">Dissertation Abstracts International</title>
+                     <biblScope unit="volume">50</biblScope>
+                     <biblScope unit="issue">11</biblScope>
+                     <date when="1990-05">mai 1990</date>
+                     <biblScope unit="page" n="3611">3611</biblScope>
+                  </bibl>
+               </note>
+               <note type="comm"/>
+            </biblStruct>
+            
+            <biblStruct xml:id="Arey_1992" type="a">
+               <analytic>
+                  <author>
+                     <persName>
+                        <surname>Arey</surname>
+                        <forename>Marie-Jo</forename>
+                     </persName>
+                  </author>
+                  <title level="a">Un phénomène de dépendance: l’amour-maladie chez Sévigné et Proust</title>
+               </analytic>
+               <monogr>
+                  <title level="j">A Quaterly Journal of Modern Foreign Literatures</title>
+                  <imprint>
+                     <biblScope unit="volume">XLV</biblScope>
+                     <biblScope unit="issue">4</biblScope>
+                     <date when="1992">hiver 1992</date>
+                  </imprint>
+                  <biblScope unit="page" from="243" to="254"/>
+               </monogr>
+               <ref type="digitised" target="https://www.tandfonline.com/doi/abs/10.1080/00397709.1992.10733750"/>
+               <note type="bibl"/>
+               <note type="comm"/>
+            </biblStruct>
+            
+            <biblStruct xml:id="Arland_1951" type="a">
+               <analytic>
+                  <author>
+                     <persName>
+                        <surname>Arland</surname>
+                        <forename>Marcel</forename>
+                     </persName>
+                  </author>
+                  <title level="a">Mme de Sévigné. La lettre et le naturel</title>
+               </analytic>
+               <monogr>
+                  <title level="m">La Prose française. Anthologie, histoire et critique d’un art</title>
+                  <imprint>
+                     <pubPlace>Paris</pubPlace>
+                     <publisher>Stock</publisher>
+                     <date when="1951">1951</date>
+                  </imprint>
+                  <biblScope unit="page" from="435" to="447"/>
+               </monogr>
+               <ref type="digitised"/>
+               <note type="bibl"/>
+               <note type="comm"/>
+            </biblStruct>
+            
+            <biblStruct xml:id="Arrou_1993" type="a">
+               <analytic>
+                  <author>
+                     <persName>
+                        <surname>Arrou-Vignod</surname>
+                        <forename>Jean-Philippe</forename>
+                     </persName>
+                  </author>
+                  <title level="a">La marquise et la comète</title>
+               </analytic>
+               <monogr>
+                  <title level="m">Le Discours des absents</title>
+                  <imprint>
+                     <pubPlace>Paris</pubPlace>
+                     <publisher>Gallimard</publisher>
+                     <date when="1951">1993</date>
+                  </imprint>
+                  <biblScope unit="page" from="57" to="69"/>
+               </monogr>
+               <ref type="digitised"/>
+               <note type="bibl"/>
+               <note type="comm"/>
+            </biblStruct>
+            
+            <biblStruct xml:id="Arsenault_1960" type="u">
+               <monogr>
+                  <author>
+                     <persName>
+                        <surname>Arsenault</surname>
+                        <forename>Philip Elwyn</forename>
+                     </persName>
+                  </author>
+                  <title level="u">The Literary Opinions of Mme de Sévigné</title>
+                  <note type="degree">Thèse de doctorat</note>
+                  <imprint>
+                     <pubPlace>Princeton (NJ)</pubPlace>
+                     <publisher>Princeton University</publisher>
+                     <date when="1959">1959</date>
+                  </imprint>
+               </monogr>
+               <ref type="digitised"/>
+               <note type="bibl">
+                  <bibl type="review">
+                     <title level="j">Dissertation Abstracts International</title>
+                     <biblScope unit="volume">20</biblScope>
+                     <biblScope unit="issue">10</biblScope>
+                     <date when="1960-04">avril 1960</date>
+                     <biblScope unit="page" n="4105">4105</biblScope>
+                  </bibl>
+               </note>
+               <note type="comm"/>
+            </biblStruct>
+            
+            <biblStruct xml:id="Avigdor_1974" type="m">
+               <monogr>
+                  <author>
+                     <persName>
+                        <surname>Avigdor</surname>
+                        <forename>Eva</forename>
+                     </persName>
+                  </author>
+                  <title level="m">Mme de Sévigné. Un portrait intellectuel et moral</title>
+                  <imprint>
+                     <pubPlace>Paris</pubPlace>
+                     <publisher>Nizet</publisher>
+                     <date when="1974">1974</date>
+                  </imprint>
+               </monogr>
+               <ref type="digitised"/>
+               <note type="bibl"/>
+               <note type="comm"/>
+            </biblStruct>
+            
+            <biblStruct xml:id="Avigdor_1975" type="a">
+               <analytic>
+                  <author>
+                     <persName>
+                        <surname>Avigdor</surname>
+                        <forename>Eva</forename>
+                     </persName>
+                  </author>
+                  <title level="a">La vraie préciosité d’une véritable précieuse</title>
+               </analytic>
+               <monogr>
+                  <title level="j">XVII<hi rend="sup">e</hi> Siècle</title>
+                  <imprint>
+                     <biblScope unit="volume">108</biblScope>
+                     <biblScope unit="issue">3</biblScope>
+                     <date when="1975">1975</date>
+                  </imprint>
+                  <biblScope unit="page" from="59" to="74"/>
+               </monogr>
+               <ref type="digitised"/>
+               <note type="bibl"/>
+               <note type="comm"/>
+            </biblStruct>
+            
+            <biblStruct xml:id="Avrane_1996" type="a">
+               <analytic>
+                  <author>
+                     <persName>
+                        <surname>Avrane</surname>
+                        <forename>Eva</forename>
+                     </persName>
+                  </author>
+                  <title level="a">Un canapé pour la marquise ?</title>
+               </analytic>
+               <monogr>
+                  <title level="j">Europe</title>
+                  <imprint>
+                     <biblScope unit="volume">801-802</biblScope>
+                     <note type="issueTitle">Mme de Sévigné</note>
+                     <date when="1996">janvier-février 1996</date>
+                  </imprint>
+                  <biblScope unit="page" from="80" to="89"/>
+               </monogr>
+               <ref type="digitised"/>
+               <note type="bibl"/>
+               <note type="comm"/>
+            </biblStruct>
+            
+            <biblStruct xml:id="Bachellier_1980" type="a">
+               <analytic>
+                  <author>
+                     <persName>
+                        <surname>Bachellier</surname>
+                        <forename>Évelyne</forename>
+                     </persName>
+                  </author>
+                  <title level="a">De la conversation à la conversion</title>
+               </analytic>
+               <monogr>
+                  <title level="j">Communications</title>
+                  <imprint>
+                     <biblScope unit="volume">30</biblScope>
+                     <date when="1980">1980</date>
+                  </imprint>
+                  <biblScope unit="page" from="31" to="56"/>
+               </monogr>
+               <ref type="digitised"/>
+               <note type="bibl"/>
+               <note type="comm"/>
+            </biblStruct>
+            
+         </listBibl>
+      </body>
+  </text>
+</TEI>

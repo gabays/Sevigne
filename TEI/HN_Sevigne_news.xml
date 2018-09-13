@@ -1,0 +1,104 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>Evénements</title>
+         </titleStmt>
+         <editionStmt>
+            <edition></edition>
+            <respStmt>
+               <resp>Conception scientifique</resp>
+               <name><persName>Cécile Lignereux</persName> et <persName>Simon Gabay</persName></name>
+            </respStmt>
+            <respStmt>
+               <resp>Encodage TEI</resp>
+               <name><persName>Simon Gabay</persName></name>
+            </respStmt>
+         </editionStmt>
+         <publicationStmt>
+            <publisher>ELAN – Équipe littératures et arts numériques</publisher>
+            <availability status="restricted" n="cc-by">
+               <licence target="https://creativecommons.org/licenses/by/2.0/fr/"/>
+               <p>Attribution 2.0 France (CC BY 2.0 FR)</p>
+            </availability>
+         </publicationStmt>
+         <sourceDesc>
+            <p>Données rassemblées par <persName>Cécile Lignereux</persName> et <persName>Simon Gabay</persName></p>
+         </sourceDesc>
+      </fileDesc>
+  </teiHeader>
+  <text>
+      <body>
+         <head>Actualités</head>
+         <listEvent>
+            <event type="exhibition" facs="HN_Sevigne_Images/Images_events/Event_2017_ExpoGrignan.jpg">
+               <label>Exposition: <title>Sévigné, épistolière du Grand Siècle</title></label>
+               <desc>
+                  <date from="2017-05-25" to="2017-10-22">Du 25 mai au 22 octobre 2017</date>
+                  <placeName>Château de Grignan</placeName>
+                  Le château de Grignan est à jamais associé à Madame de Sévigné, femme de lettres devenue célèbre après la parution de sa correspondance. L'exposition retrace le parcours de cette épistolière d'exception entre Paris, Vitré (Bretagne) et Grignan, où elle séjourne auprès de sa fille. Elle met en lumière l'évolution de son écriture, l'art de vivre en Provence et le mythe sévignéen, à travers plus de cent objets et oeuvres d'art illustrant le Grand Siècle.
+               </desc>
+               <listBibl>
+                  <bibl type="link">
+                     <ref target="https://www.chateaux-ladrome.fr/fr/saison-2017-2018/expositions/sevigne-epistoliere-du-grand-siecle">Présentation de l'exposition</ref>
+                  </bibl>
+                  <bibl type="doc">
+                     <ref target="HN_Sevigne_documentation/Event_2017_ExpoGrignan_desc.pdf">Catalogue de l'exposition</ref>
+                  </bibl>
+               </listBibl>
+            </event>
+            <event type="performance" facs="HN_Sevigne_Images/Images_logos/Logo_LogoVoixTexte.png">
+               <label>La Voix d’un texte au Panthéon</label>
+               <desc>
+                  <date when="2018-06-09">9 juin 2018</date>
+                  <placeName>Panthéon, Paris</placeName>
+                  Les Lettres de Madame de Sévigné (1626-1696) ne constituent pas une œuvre littéraire comme les autres – d’ailleurs, la marquise n’avait pas envisagé leur publication. Journaliste du Grand Siècle, l’épistolière rapporte, à ses amis éloignés de Paris, tous les plus grands scandales de la Cour du Roi-Soleil : le mariage manqué de la Grande Mademoiselle, l’affaire des poisons impliquant la Brinvilliers et la sorcière dite « la Voisin », la mort de Turenne, et bien d’autres. En donnant à ses lettres l’allure et le charme d’une conversation mondaine, elle leur permet d’accéder à une véritable dignité littéraire. Ses Lettres témoignent aussi et surtout d’une passion extraordinaire, d’un amour plus fort que la distance, celui d’une mère pour sa fille partie vivre à Grignan : l’écriture est alors, aux yeux de Madame de Sévigné, une nécessité vitale.
+               </desc>
+               <bibl type="link">
+                  <ref target="https://www.ens.fr/agenda/la-voix-d-un-texte-au-pantheon/2018-05-26t140000">Présentation</ref>
+               </bibl>
+            </event>
+            <event type="media" facs="HN_Sevigne_Images/Images_logos/Logo_FranceCulture.jpg">
+               <label>Emission: <title>Madame de Sévigné (1626-1696): dans les petits papiers du Grand Siècle</title></label>
+               <desc>                  
+                  <date when="2016-03-19">19 mars 2016</date>
+                  <orgName type="media">France culture</orgName>
+                  Dans ses fameuses lettres, Madame de Sévigné chroniqua le procès de Fouquet tout autant que la vie provinciale du château des Rochers à Vitré, tout cela pour l’amour d’une femme : sa fille, partie à Grignan vivre auprès de son Comte de mari...
+               </desc>
+               <bibl type="link">
+                  <ref target="https://www.franceculture.fr/emissions/une-vie-une-oeuvre/madame-de-sevigne-1626-1696-dans-les-petits-papiers-du-grand-siecle">Site de l'émission</ref>
+               </bibl>
+            </event>
+            <event type="viva" facs="HN_Sevigne_Images/Images_logos/Logo_LogoParisSaclay.jpg">
+               <label>Soutenance de thèse: <title>Le Vivant dans la Correspondance de Madame de Sévigné</title></label>
+               <desc>
+                  <date when="2017-12-02">2 décenbre 2017</date>
+                  <orgName type="uni">Paris-Saclay</orgName>
+                  La Correspondance de Sévigné retrace la vie quotidienne, émotionnelle et morale de l'épistolière, dont on a souvent collecté et interprété les aléas dans une perspective biographique ou socio-littéraire. À travers le "vivant", notion transversale et unifiante, nous nous proposons de mettre au jour les articulations entre l'existence sévignéenne et la lettre, entre formes de vie et formes d'écriture, et ainsi d'envisager à nouveaux frais la puissance de réflexion et de transformation de l'écriture sévignéenne.
+               </desc>
+               <bibl type="link">
+                  <ref type="link" target="http://www.theses.fr/2017SACLV083">Description de la thèse</ref>
+               </bibl>
+            </event>
+            <event type="conference" facs="HN_Sevigne_Images/Images_events/Event_2017_ConfEns.jpg">
+               <label>Colloque: <title>Vivre en toutes lettres : le cas Sévigné</title></label>
+               <desc>
+                  <date when="2017-06-16">16 juin 2017</date>
+                  <orgName type="uni">ENS-Ulm</orgName>
+                  Dans quelle mesure la lettre permet-elle de saisir un « vivre » qui ne se réduise pas à des biographèmes ? L’éclatement des paradigmes moraux et spirituels dans la <title>Correspondance</title> et l’adaptation des pratiques de soi à un quotidien dont la lettre « enregistr[e] […] [l]es écarts et [l]es variations » (pour reprendre le propos de François Jullien au sujet de Montaigne) semblent faire émerger un « vivre » en mouvement : quelles ressources physiques, morales et esthétiques, sont alors mobilisées dans la lettre sévignéenne pour rendre compte des interrogations existentielles, et avec quelles conséquences sur l’écriture épistolaire ?
+               </desc>
+               <listBibl>
+                  <bibl type="link">
+                     <ref target="https://www.fabula.org/actualites/journee-d-etude-vivre-en-toutes-lettres-le-cas-sevigne_78992.php">Programme</ref>
+                  </bibl>
+                  <bibl type="doc">
+                     <ref target="HN_Sevigne_documentation/Event_2017_ConfEns_prog.pdf">Programme en PDF</ref>
+                  </bibl>
+               </listBibl>
+            </event>
+         </listEvent>
+      </body>
+  </text>
+</TEI>

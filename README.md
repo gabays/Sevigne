@@ -24,4 +24,7 @@ Typer directement les \<BiblStruct> avec @type _a_ (article), _u_ (travail unive
 
 ## Documentation
 1. Images: 3 Vermeer, 4 Portraits, quelques manuscrits (cf. Château de Grignan), quelques natures mortes (Evert collier?).
-1. Evenements: emission, france culture, exposition grignan, lecture au pantheon .
+1. Evenements: emission, france culture, exposition grignan, lecture au pantheon
+
+
+<a rel="license" href="https://creativecommons.org/licenses/by/2.0"><img alt="Creative Commons License" style="border-width:0" src="https://i.creativecommons.org/l/by/2.0/88x31.png" /></a><br />

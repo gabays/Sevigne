@@ -37,8 +37,7 @@
                <persName xml:id="gabaySimon">
                   <forename>Simon</forename><surname>Gabay</surname>
                </persName>
-               <occupation><affiliation><roleName>Post-doctorant</roleName> à l'<orgName>université de Neuchâtel</orgName> (Suisse)</affiliation>, il prépare sa thèse d'habilitation sur Sévigné.</occupation>
-               <note type="resp">Il est responsable de la partie numérique du site, et de l'encodage en TEI.</note>
+               <occupation><affiliation><roleName>Post-doctorant</roleName> à l'<orgName>université de Neuchâtel</orgName> (Suisse)</affiliation>, il prépare sa thèse d'habilitation sur Mme de Sévigné.</occupation>
                <bibl>
                   <ref target="https://www.unine.ch/ilf/home/enseignants--collaborateurs/gabay_simon.html">Page personnelle</ref>
                </bibl>
@@ -47,8 +46,7 @@
                <persName xml:id="LigneureuxCecile">
                   <forename>Cécile</forename><surname>Lignereux</surname>
                </persName>
-               <occupation><affiliation><roleName>Maître de conférence</roleName> à l'<orgName>université Grenoble-Alpes</orgName> (France)</affiliation>, elle est l'autrice d'une <ref target="http://www.theses.fr/2009PA040219">thèse sur Sévigné</ref>.</occupation>
-               <note type="resp">La bibliographie présente sur ce site est tirée de sa thèse.</note>
+               <occupation><affiliation><roleName>Maître de conférences</roleName> à l'<orgName>université Grenoble Alpes</orgName> (France)</affiliation>, elle a sa consacré sa <ref target="http://www.theses.fr/2009PA040219">thèse à Mme de Sévigné</ref>.</occupation>
                <bibl>
                   <ref target="http://rare.u-grenoble3.fr/spip/spip.php?article312">Page personnelle</ref>
                </bibl>

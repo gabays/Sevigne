@@ -31,7 +31,7 @@
    </teiHeader>
    <text>
       <body>
-         <head>Bibliographie</head>
+         <head>Bibliographie secondaire</head>
          <listBibl>     
             <bibl><author><surname>ACKERMAN</surname> <forename>Simone</forename></author>, « <title level="a">Mme de Sévigné, souveraine protéiforme de la littérature épistolaire -un théâtre de la cruauté impressionniste</title> », dans <author role="dir"><surname>DUCHÊNE</surname> <forename>Roger</forename></author> (dir.), <title level="m">Mme de Sévigné (1626-1696). Provence, spectacles, « lanternes »</title>, <hi rend="italics">op. cit.</hi>, <date when="1998">1998</date>, p. 177-184
                <note type="comm">Ici je peux mettre un commentaire.</note></bibl>

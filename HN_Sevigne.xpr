@@ -10,21 +10,6 @@
                         <scenarioAssociation-array>
                             <scenarioAssociation>
                                 <field name="url">
-                                    <String>TEI/HN_Sevigne_bib.xml</String>
-                                </field>
-                                <field name="scenarioIds">
-                                    <list>
-                                        <String>HN_Sevigne_bibToHtml</String>
-                                    </list>
-                                </field>
-                                <field name="scenarioTypes">
-                                    <list>
-                                        <String>XSL</String>
-                                    </list>
-                                </field>
-                            </scenarioAssociation>
-                            <scenarioAssociation>
-                                <field name="url">
                                     <String>TEI/HN_Sevigne_index.xml</String>
                                 </field>
                                 <field name="scenarioIds">
@@ -40,11 +25,56 @@
                             </scenarioAssociation>
                             <scenarioAssociation>
                                 <field name="url">
-                                    <String>TEI/HN_Sevigne_links.xml</String>
+                                    <String>TEI/HN_Sevigne_bib1.xml</String>
                                 </field>
                                 <field name="scenarioIds">
                                     <list>
-                                        <String>HN_Sevigne_linksToHtml</String>
+                                        <String>HN_Sevigne_bibToHtml</String>
+                                    </list>
+                                </field>
+                                <field name="scenarioTypes">
+                                    <list>
+                                        <String>XSL</String>
+                                    </list>
+                                </field>
+                            </scenarioAssociation>
+                            <scenarioAssociation>
+                                <field name="url">
+                                    <String>TEI/HN_Sevigne_bib2.xml</String>
+                                </field>
+                                <field name="scenarioIds">
+                                    <list>
+                                        <String>HN_Sevigne_bibToHtml</String>
+                                    </list>
+                                </field>
+                                <field name="scenarioTypes">
+                                    <list>
+                                        <String>XSL</String>
+                                    </list>
+                                </field>
+                            </scenarioAssociation>
+                            <scenarioAssociation>
+                                <field name="url">
+                                    <String>TEI/HN_Sevigne_bib.xml</String>
+                                </field>
+                                <field name="scenarioIds">
+                                    <list>
+                                        <String>HN_Sevigne_bibToHtml</String>
+                                    </list>
+                                </field>
+                                <field name="scenarioTypes">
+                                    <list>
+                                        <String>XSL</String>
+                                    </list>
+                                </field>
+                            </scenarioAssociation>
+                            <scenarioAssociation>
+                                <field name="url">
+                                    <String>TEI/HN_Sevigne_people.xml</String>
+                                </field>
+                                <field name="scenarioIds">
+                                    <list>
+                                        <String>HN_Sevigne_people</String>
                                     </list>
                                 </field>
                                 <field name="scenarioTypes">
@@ -70,11 +100,11 @@
                             </scenarioAssociation>
                             <scenarioAssociation>
                                 <field name="url">
-                                    <String>TEI/HN_Sevigne_people.xml</String>
+                                    <String>TEI/HN_Sevigne_links.xml</String>
                                 </field>
                                 <field name="scenarioIds">
                                     <list>
-                                        <String>HN_Sevigne_people</String>
+                                        <String>HN_Sevigne_linksToHtml</String>
                                     </list>
                                 </field>
                                 <field name="scenarioTypes">
@@ -132,10 +162,10 @@
                                     <Boolean>true</Boolean>
                                 </field>
                                 <field name="outputFile">
-                                    <File>${pd}/_web/bibliography.html</File>
+                                    <File>${pd}/_web/${cfn}.html</File>
                                 </field>
                                 <field name="outputResource">
-                                    <String>${pd}/_web/bibliography.html</String>
+                                    <String>${pd}/_web/${cfn}.html</String>
                                 </field>
                                 <field name="openOtherLocationInBrowser">
                                     <Boolean>false</Boolean>

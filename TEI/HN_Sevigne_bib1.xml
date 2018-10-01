@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>Bibliogrphaphie</title>
+         </titleStmt>
+         <editionStmt>
+            <edition></edition>
+            <respStmt>
+               <resp>Conception scientifique</resp>
+               <name><persName>Cécile Lignereux</persName> et <persName>Simon Gabay</persName></name>
+            </respStmt>
+            <respStmt>
+               <resp>Encodage TEI</resp>
+               <name><persName>Simon Gabay</persName></name>
+            </respStmt>
+         </editionStmt>
+         <publicationStmt>
+            <publisher>ELAN – Équipe littératures et arts numériques</publisher>
+            <availability status="restricted" n="cc-by">
+               <licence target="https://creativecommons.org/licenses/by/2.0/fr/"/>
+               <p>Attribution 2.0 France (CC BY 2.0 FR)</p>
+            </availability>
+         </publicationStmt>
+         <sourceDesc>
+            <p>Bibliographie établie par <persName>Cécile Lignereux</persName>pour sa thèse de doctorat.</p>
+         </sourceDesc>
+      </fileDesc>
+   </teiHeader>
+   <text>
+      <body>
+         <head>Bibliographie primaire</head>
+         <listBibl>     
+            <bibl><author><surname>ACKERMAN</surname> <forename>Simone</forename></author>, « <title level="a">Mme de Sévigné, souveraine protéiforme de la littérature épistolaire -un théâtre de la cruauté impressionniste</title> », dans <author role="dir"><surname>DUCHÊNE</surname> <forename>Roger</forename></author> (dir.), <title level="m">Mme de Sévigné (1626-1696). Provence, spectacles, « lanternes »</title>, <hi rend="italics">op. cit.</hi>, <date when="1998">1998</date>, p. 177-184
+               <note type="comm">Ici je peux mettre un commentaire.</note></bibl>
+            <bibl><author><surname>ADAMS</surname> <forename>Marcie Elaine</forename></author>, <title level="u">La Représentation féminine du corps souffrant</title>, M.A., University of Western Ontario, <date when="1997">1997</date> [<title level="j">Dissertation Abstracts International</title>, 38/01, <date>février 2000</date>, p. 49]</bibl>
+            <bibl><author><surname>ALLENTUCH</surname> <forename>Harriet Maxine Ray</forename></author>, « <title level="a">My daughter / myself. Emotional roots of Mme de Sévigné's art</title> », <title level="j">Modern Language Quarterly</title>, vol. 43, <date when="1982">1982</date>, p. 121-137
+               <bibl type="digitised">
+                  <ref target="https://watermark.silverchair.com/ddmlq_43_2_121.pdf?token=AQECAHi208BE49Ooan9kkhW_Ercy7Dm3ZL_9Cf3qfKAc485ysgAAAfswggH3BgkqhkiG9w0BBwagggHoMIIB5AIBADCCAd0GCSqGSIb3DQEHATAeBglghkgBZQMEAS4wEQQM1eGlEv108idB2HEfAgEQgIIBrvZ7gxLfJgtWqQ9ocbToKhkxWr0HIl000sjIGDca7Abzl-MSs0QQm_cDBjVH-hP-TpajivkCscn1hzbfNIBKqsPyYUTX5ZZKSMdxAb580PQK5RnGQRF8V2_LaKs8bnZq6B08UvzU91QcNN7UE6X4Rkv59ctwDfqCbzTTXX_ej1MeN92tZfAU3yytz0z0dd56Cof3HRIU1c-KBwsLffPuguK_J5RcfHZevTn-ixJ0NKB28EEvHK1-CYdjyYAWPOx5nKb_K7-oGaybqpyNzK0lxDfu-Z0Da_cvM34SqUw7mJ0t6MRb3AlCRWZqHO3Lp5N6Av9rtkTX5FCf5Z6ZnqsInHIpV2nB-_I80Gv8PlMDEYJkXktdUEnD0addl90Rat6wke91WlN88X_QOaFUtkKS8_x7tPFQkj7cGp8wlMqGty1RmuoAbdmuaCe-ioocnbdGCb2a34uE4jiABX91kEhC99bNqXwvkuQuBIdYHOIJdz0mhk4NLvF2mu9UuRQl7eFSuVvX2cIeEMybgck2HJVU_urU1Rlw59uSnQus72izJghkUEMap5AScZfLDk4-JGA">silverchair</ref>
+               </bibl>
+            </bibl>
+            <bibl><author><surname>ALLENTUCH</surname> <forename>Harriet Maxine Ray</forename></author>, « <title level="a">Setting Feelings to Words: Language and Emotion in the Letters of Madame de Sévigné</title> », <title level="j">P.F.S.C.L.</title>, XV, n° 28, <date when="1988">1988</date>, p. 239-244</bibl>
+            
+         </listBibl>
+      </body>
+   </text>
+</TEI>

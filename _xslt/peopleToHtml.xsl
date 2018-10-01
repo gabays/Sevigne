@@ -21,7 +21,8 @@
                 <div class="sidebar">
                     <ul>Navigation</ul>
                     <li><a href="../_web/index.html">Accueil</a></li>
-                    <li><a href="../_web/bibliography.html">Bibliographie</a></li>
+                    <li><a href="../_web/HN_Sevigne_bib1.html">Bibliographie primaire</a></li>
+                    <li><a href="../_web/HN_Sevigne_bib2.html">Bibliographie secondaire</a></li>
                     <li><a href="../_web/news.html">Actualités</a></li>
                     <li><a href="../_web/links.html">Liens</a></li>
                     <li><a href="../_web/people.html">Équipe</a></li>
@@ -48,7 +49,7 @@
             <xsl:for-each select="person">
                 <xsl:sort order="descending" select="persName/@xml:id"/>
                 <div class="item">
-                <h2><xsl:value-of select="persName/surname"/><xsl:text>, </xsl:text><xsl:value-of select="persName/forename"/></h2>
+                    <h2><xsl:value-of select="persName/forename"/> <xsl:text> </xsl:text> <xsl:value-of select="persName/surname"/></h2>
                     <img class="entryImage" src="{@facs}"/>
                     <div class="entry">
                         <xsl:apply-templates/>

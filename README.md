@@ -6,16 +6,17 @@ Mise-en œuvre technique par l'ELAN (https://elan.hypotheses.org/).
 # Programme
 
 ## Calendrier
+
 1. Rendu prototype mi-juillet
 1. Rendu projet final mi-août
 1. rdv le 21 septembre 2018
 
 ## Images
-Page d'accueil: portrait 1
-Bibliographie primaire imprimée: image de livre
-Bibliographie primaire manuscrite: image de manuscrit
-Bibliographie secondaire jusqu'à 2006: portrait 2
-Bibliographie secondaire depuis 2006: portrait 2
+* Page d'accueil: portrait 1
+* Bibliographie primaire imprimée: image de livre
+* Bibliographie primaire manuscrite: image de manuscrit
+* Bibliographie secondaire jusqu'à 2006: portrait 2
+* Bibliographie secondaire depuis 2006: portrait 2
 
 
 ## Modification du code

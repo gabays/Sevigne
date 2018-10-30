@@ -7,8 +7,9 @@ Mise-en œuvre technique par l'ELAN (https://elan.hypotheses.org/).
 
 ## Calendrier
 
-1. code TEI livré 21 septembre
-2. Prototype du site livré par l'ELAN le 15 février
+1. code TEI livré le 21 septembre 2018
+2. Prototype du site livré par l'ELAN le 15 février 2019
+3. Publication finale en juin 2019
 
 ## Modification du code
 Typer directement les `<BiblStruct>` avec `@type` _a_ (article), _u_ (travail universitaire non-publié) ou _m_ (monographie).

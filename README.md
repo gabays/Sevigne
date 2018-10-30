@@ -7,24 +7,13 @@ Mise-en œuvre technique par l'ELAN (https://elan.hypotheses.org/).
 
 ## Calendrier
 
-1. Rendu prototype mi-juillet
-1. Rendu projet final mi-août
-1. rdv le 21 septembre 2018
-
-## Images
-* Page d'accueil: portrait 1
-* Bibliographie primaire imprimée: image de livre
-* Bibliographie primaire manuscrite: image de manuscrit
-* Bibliographie secondaire jusqu'à 2006: portrait 2
-* Bibliographie secondaire depuis 2006: portrait 2
-
+1. code TEI livré 21 septembre
+2. Prototype du site livré par l'ELAN le 15 février
 
 ## Modification du code
-Typer directement les \<BiblStruct> avec @type _a_ (article), _u_ (travail universitaire non-publié) ou _m_ (monographie).
+Typer directement les `<BiblStruct>` avec `@type` _a_ (article), _u_ (travail universitaire non-publié) ou _m_ (monographie).
 
-## Documentation
-1. Images: 3 Vermeer, 4 Portraits, quelques manuscrits (cf. Château de Grignan), quelques natures mortes (Evert collier?).
-1. Evenements: emission, france culture, exposition grignan, lecture au pantheon
-
+# Licences
+Code is CC-BY, but *not* the images
 
 <a rel="license" href="https://creativecommons.org/licenses/by/2.0"><img alt="Creative Commons License" style="border-width:0" src="https://i.creativecommons.org/l/by/2.0/88x31.png" /></a><br />
